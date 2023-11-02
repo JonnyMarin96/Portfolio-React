@@ -4,6 +4,7 @@ import MenuBoton from "../MenuBoton/MenuBoton"
 
 const Menu = () => {
     return <>
+    
     <div className="menuContainer">
         <ul className="Menu">
             <MenuBoton titulo="Inicio" />

@@ -21,9 +21,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-src/Components/MenuBoton/MenuBoton.css
-src/Components/MenuBoton/MenuBoton.jsx
-src/Components/Menu/menu.css
-.gitignore
-src/Components/Menu/Menu.jsx
-src/Components/Menu/Menu.jsx
+
