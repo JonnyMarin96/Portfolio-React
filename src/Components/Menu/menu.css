@@ -1,0 +1,13 @@
+.menuContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #614ED9;
+    width: 400px;
+    height: 100vh;
+}
+
+.Menu{
+    display: flex;
+    flex-direction: column;
+}
