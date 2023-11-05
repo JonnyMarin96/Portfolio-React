@@ -2,7 +2,9 @@ import './MenuBoton.css'
 
 const MenuBoton = (props) => {
     return(
-        <p className='label'> {props.titulo} </p>
+        <a href="">
+            <p className='label'> {props.titulo} </p>
+        </a>
     ) 
 }
 
