@@ -4,9 +4,7 @@ import MenuBoton from "../MenuBoton/MenuBoton"
 
 const Menu = () => {
     return <>
-    
     <div className="menuContainer">
-        <img src="" alt="" />
         <ul className="Menu">
             <MenuBoton titulo="Inicio" />
             <MenuBoton titulo="Sobre mí" />
