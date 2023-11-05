@@ -3,7 +3,7 @@ import './SobreMi.css'
 const SobreMi = () => {
     return<>
         <section className='ContainerSobreMi'>
-            <label>Jonathan Marin Marin</label>
+            <label>Jonathan Marin</label>
             <label htmlFor="">Desarrollador Front-end Jr</label>
             <p> Presentacion </p>
             <ul>
