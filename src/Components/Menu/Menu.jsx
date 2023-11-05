@@ -1,16 +1,19 @@
 import "./menu.css"
 
 import MenuBoton from "../MenuBoton/MenuBoton"
+import icono from "../../IMG/icono.png"
 
 const Menu = () => {
     return <>
     <div className="menuContainer">
+
         <ul className="Menu">
-            <MenuBoton titulo="Inicio" />
-            <MenuBoton titulo="Sobre mí" />
-            <MenuBoton titulo="Educacion" />
-            <MenuBoton titulo="Skills" />
-            <MenuBoton titulo="Contacto" />
+            <img src={icono} alt="avatar" className="avatarImg"/>
+            <MenuBoton titulo="INICIO" />
+            <MenuBoton titulo="SOBRE MI" />
+            <MenuBoton titulo="EDUCACIÓN" />
+            <MenuBoton titulo="SKILLS" />
+            <MenuBoton titulo="CONTACTO" />
         </ul>
     </div>
     
