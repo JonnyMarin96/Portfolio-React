@@ -1,9 +1,23 @@
 :root{
-    --Purple: #6127FF;
+        /* Colores */ 
+    --Purple: #5523e0;
     --DarkPurple: #130D29;
     --White: #FFFFF7;
     --Gray: #F0EEFA;
     --Black: #0D0D0D;
-    --Naranja: #F84037;
-    --Verde: #68F653;
+    --Orange: #F84037;
+    --Green: #68F653;
+
+        /* Fuentes */
+    --Montserrat: 'Montserrat', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
+
+        /* Grueso de fuente */
+    --Thin: 100;
+    --ExtraLight: 200;
+    --Light: 300;
+    --Regular: 400;
+    --Medium: 500;
+    --SemiBold: 600;
+    --Bold: 700;
 }

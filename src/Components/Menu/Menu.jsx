@@ -1,4 +1,5 @@
 import "./menu.css"
+import "../root.css"
 
 import MenuBoton from "../MenuBoton/MenuBoton"
 import icono from "../../IMG/icono.png"

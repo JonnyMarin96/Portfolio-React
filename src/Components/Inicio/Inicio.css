@@ -1,0 +1,43 @@
+.ContainerSobreMi{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+
+    font-family: var(--Roboto);
+    background-color: var(--DarkPurple);
+    color: rgb(110, 110, 110);
+
+    margin-left: 400px;
+    padding: 0 50px;
+    height: 100vh;
+}
+
+.Nombre{
+    font-family: var(--Montserrat);
+    font-weight: var(--SemiBold);
+    font-size: 6rem;
+    color: var(--Green);
+}
+
+.Titulo{
+    font-family: var(--Montserrat);
+    font-weight: var(--Ligth);
+    font-size: 1.5rem;
+    color: var(--Orange);
+
+    margin-bottom: 2rem;
+}
+
+.Presentacion{
+    font-family: var(--Roboto);
+    font-weight: var(--Light);
+    font-size: 1.2rem;
+    color: var(--White);
+    width: 60%;
+
+    margin-bottom: 2rem;
+}
+
+.btn_CV{
+    width: 200px;
+}

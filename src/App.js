@@ -1,12 +1,12 @@
 import './App.css';
 import './reset.css'
 import Menu from './Components/Menu/Menu';
-import SobreMi from './Components/SobreMi/SobreMi';
+import Inicio from './Components/Inicio/Inicio';
 
 function App() {
   return (<>
     <Menu/>
-    <SobreMi/>
+    <Inicio/>
   </>)
 }
 

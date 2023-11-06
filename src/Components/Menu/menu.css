@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #6127FF;
+    background-color: var(--Purple);
     width: 400px;
     height: 100vh;
     position: fixed;
