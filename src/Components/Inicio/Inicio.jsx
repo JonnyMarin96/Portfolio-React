@@ -3,15 +3,9 @@ import "../root.css"
 
 const Inicio = () => {
     return<>
-        <section className='ContainerSobreMi'>
+        <section className='ContainerInicio'>
             <h1 className='Nombre'>Jonathan Marin</h1>
-            <label className='Titulo'>Ing. en Sistemas computacionales y <br/> Desarrollador Front-end Jr</label>
-            
-            <p className='Presentacion'> 
-                Mi misión es convertir ideas creativas en experiencias interactivas y atractivas.
-                Estoy emocionado por seguir ampliando mis conocimientos y colaborar en proyectos desafiantes que me permitan exprimir al máximo mi creatividad y habilidades técnicas.
-                ¡Siempre estoy listo para enfrentar nuevos retos y construir experiencias digitales asombrosas    
-            </p>
+            <label className='Titulo'>Desarrollador Front-end Jr</label>
 
             <ul>
                 <li>Linked In</li>
@@ -19,9 +13,12 @@ const Inicio = () => {
                 <li>Instagram</li>
                 <li>Tiktok</li>
             </ul>
-            <button className='btn_CV'>Descargar CV</button>
+            <input className='btn_CV' type='button' value='Descargar CV'/>
         </section>
     </>
 }
+
+
+
 
 export default Inicio

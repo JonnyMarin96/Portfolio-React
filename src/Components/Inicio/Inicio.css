@@ -1,4 +1,4 @@
-.ContainerSobreMi{
+.ContainerInicio{
     display:flex;
     flex-direction:column;
     justify-content: center;
@@ -17,27 +17,26 @@
     font-weight: var(--SemiBold);
     font-size: 6rem;
     color: var(--Green);
+
+    margin-bottom: 4rem;
 }
 
 .Titulo{
     font-family: var(--Montserrat);
     font-weight: var(--Ligth);
-    font-size: 1.5rem;
+    font-size: 3rem;
     color: var(--Orange);
 
     margin-bottom: 2rem;
 }
 
-.Presentacion{
-    font-family: var(--Roboto);
-    font-weight: var(--Light);
-    font-size: 1.2rem;
-    color: var(--White);
-    width: 60%;
-
-    margin-bottom: 2rem;
-}
-
 .btn_CV{
-    width: 200px;
+    font-family: var(--Roboto);
+    font-weight: var(--Regular);
+    flex-wrap: wrap;
+
+    background-color: var(--Green);
+
+    color: var(--DarkPurple);
+    font-size: 1.3rem;
 }
