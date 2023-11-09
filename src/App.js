@@ -1,14 +1,17 @@
 import './App.css';
 import './reset.css'
 
+import Tema from './Components/Temas';
 import Menu from './Components/Menu/Menu';
+
 import Inicio from './Components/Inicio/Inicio';
+import { ThemeProvider } from '@mui/material';
 
 function App() {
-  return (<>
+  return (<ThemeProvider theme={Tema}>
     <Menu/>
     <Inicio/>
-  </>)
+  </ThemeProvider>)
 }
 
 export default App

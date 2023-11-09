@@ -18,7 +18,7 @@
     font-size: 6rem;
     color: var(--Green);
 
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .Titulo{
@@ -27,7 +27,7 @@
     font-size: 3rem;
     color: var(--Orange);
 
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .asd{
@@ -38,5 +38,5 @@
     font-family: var(--Roboto);
     font-weight: var(--Regular);
     color: var(--DarkPurple);
-    font-size: 1rem;
+    font-size: 1.3rem;
 }

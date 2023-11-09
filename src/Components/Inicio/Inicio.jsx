@@ -1,5 +1,7 @@
 import './Inicio.css'
 import "../root.css"
+import RedesSociales from '../RedesSociales/RedesSociales'
+
 import { Button } from '@mui/material'
 
 const Inicio = () => {
@@ -8,12 +10,7 @@ const Inicio = () => {
             <h1 className='Nombre'>Jonathan Marin</h1>
             <label className='Titulo'>Desarrollador Front-end Jr</label>
 
-            <ul>
-                <li>Linked In</li>
-                <li>Github</li>
-                <li>Instagram</li>
-                <li>Tiktok</li>
-            </ul>
+            <RedesSociales/>
             
             <div>
                 <Button variant="contained" className='asd'>
