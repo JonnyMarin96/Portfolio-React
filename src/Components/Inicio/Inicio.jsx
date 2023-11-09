@@ -1,5 +1,7 @@
 import './Inicio.css'
 import "../root.css"
+
+import DownloadIcon from '@mui/icons-material/Download';
 import RedesSociales from '../RedesSociales/RedesSociales'
 
 import { Button } from '@mui/material'
@@ -15,6 +17,7 @@ const Inicio = () => {
             <div>
                 <Button variant="contained">
                     <span className='BtnSpanCv'>Descargar CV</span>
+                    <DownloadIcon/>
                 </Button>
             </div>
         </section>

@@ -35,4 +35,6 @@
     font-weight: var(--Regular);
     color: var(--White);
     font-size: 1.3rem;
+    margin-right: 5px;
+    margin-left: 7px;
 }
