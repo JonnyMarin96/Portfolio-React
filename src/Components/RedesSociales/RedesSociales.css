@@ -1,0 +1,10 @@
+.RedesSocialesContainer{
+    margin-bottom: 2rem
+}
+
+.RedesSocialesIcon{
+    margin-right: 40px;
+}
+.RedesSocialesIcon:hover{
+    cursor: pointer;
+}

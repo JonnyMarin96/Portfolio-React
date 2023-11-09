@@ -13,7 +13,7 @@ const Inicio = () => {
             <RedesSociales/>
             
             <div>
-                <Button variant="contained" className='asd'>
+                <Button variant="contained">
                     <span className='BtnSpanCv'>Descargar CV</span>
                 </Button>
             </div>

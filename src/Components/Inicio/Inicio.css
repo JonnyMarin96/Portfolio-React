@@ -24,19 +24,15 @@
 .Titulo{
     font-family: var(--Montserrat);
     font-weight: var(--Ligth);
-    font-size: 3rem;
-    color: var(--Orange);
+    font-size: 2.5rem;
+    color: var(--White);
 
     margin-bottom: 4rem;
-}
-
-.asd{
-    background-color: antiquewhite;
 }
 
 .BtnSpanCv{
     font-family: var(--Roboto);
     font-weight: var(--Regular);
-    color: var(--DarkPurple);
+    color: var(--White);
     font-size: 1.3rem;
 }
