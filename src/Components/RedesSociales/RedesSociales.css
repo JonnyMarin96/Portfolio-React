@@ -1,10 +1,10 @@
 .RedesSocialesContainer{
+    display: flex;
+    flex-direction: row;
     margin-bottom: 2rem
 }
 
-.RedesSocialesIcon{
-    margin-right: 40px;
-}
-.RedesSocialesIcon:hover{
-    cursor: pointer;
+.BtnSocualMedia{
+    scale: 130%;
+    margin-right: 30px;
 }
