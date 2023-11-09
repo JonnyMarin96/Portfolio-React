@@ -30,13 +30,13 @@
     margin-bottom: 2rem;
 }
 
-.btn_CV{
+.asd{
+    background-color: antiquewhite;
+}
+
+.BtnSpanCv{
     font-family: var(--Roboto);
     font-weight: var(--Regular);
-    flex-wrap: wrap;
-
-    background-color: var(--Green);
-
     color: var(--DarkPurple);
-    font-size: 1.3rem;
+    font-size: 1rem;
 }

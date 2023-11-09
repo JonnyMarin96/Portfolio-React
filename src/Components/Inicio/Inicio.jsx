@@ -1,5 +1,6 @@
 import './Inicio.css'
 import "../root.css"
+import { Button } from '@mui/material'
 
 const Inicio = () => {
     return<>
@@ -13,7 +14,12 @@ const Inicio = () => {
                 <li>Instagram</li>
                 <li>Tiktok</li>
             </ul>
-            <input className='btn_CV' type='button' value='Descargar CV'/>
+            
+            <div>
+                <Button variant="contained" className='asd'>
+                    <span className='BtnSpanCv'>Descargar CV</span>
+                </Button>
+            </div>
         </section>
     </>
 }
