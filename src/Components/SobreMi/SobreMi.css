@@ -1,5 +1,27 @@
-.asd{
+.SobreMiContainer{
+    background-color: var(--DarkPurple);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     margin-left: 400px;
     padding: 0 50px;
     height: 100vh;
+}
+
+.FotoPersonal{
+    width: 300px;
+    border-radius: 100%;
+    margin-bottom: 100px;
+}
+
+.Descripcion{
+    font-size: 1.6rem;
+    color: var(--White);
+    font-family: var(--Roboto);
+    font-weight: var(--Light);
+
+    width: 60%;
+    text-align: center;
 }
