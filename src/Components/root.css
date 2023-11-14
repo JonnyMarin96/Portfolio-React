@@ -1,12 +1,13 @@
 :root{
         /* Colores */ 
-    --Purple: #5523e0;
+    --Purple: #4b36d4;
     --DarkPurple: #130D29;
     --White: #FFFFF7;
     --Gray: #F0EEFA;
-    --Black: #0D0D0D;
+    --Black: #262626;
     --Orange: #ee332d;
-    --Green: #68F653;
+    --Green: #26f07a;
+    --DarkGreen: #19c761;
 
         /* Fuentes */
     --Montserrat: 'Montserrat', sans-serif;
