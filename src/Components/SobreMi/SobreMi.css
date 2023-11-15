@@ -12,7 +12,6 @@
 
 .FotoPersonal{
     width: 300px;
-    border-radius: 100%;
     margin-bottom: 100px;
 }
 
@@ -22,6 +21,5 @@
     font-family: var(--Roboto);
     font-weight: var(--Light);
 
-    width: 60%;
     text-align: center;
 }
