@@ -5,7 +5,7 @@ const Tema = createTheme({
         primary:{
             main: '#ee332d'
         },
-        SocialMediaIcon:{
+        White:{
             main: '#ffffff'
         }
     }

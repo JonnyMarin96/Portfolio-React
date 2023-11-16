@@ -5,7 +5,7 @@ import './MenuBoton.css'
 
 const MenuBoton = (props) => {
     return(<>
-        <Button className='BtnMenu'>
+        <Button className='BtnMenu' color='White'>
             <label className='label'> {props.titulo} </label>
         </Button>
             
