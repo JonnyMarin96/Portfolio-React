@@ -1,10 +1,13 @@
+
+import { Button } from '@mui/material'
 import './MenuBoton.css'
 
 
 const MenuBoton = (props) => {
-    return(
-            <p className='label'> {props.titulo} </p>
-    ) 
+    return(<>
+            <Button className='label'> {props.titulo} </Button>
+            <p >  </p>
+    </>) 
 }
 
 
