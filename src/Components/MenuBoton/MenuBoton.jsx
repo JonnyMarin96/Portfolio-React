@@ -5,8 +5,10 @@ import './MenuBoton.css'
 
 const MenuBoton = (props) => {
     return(<>
-            <Button className='label'> {props.titulo} </Button>
-            <p >  </p>
+        <Button className='BtnMenu'>
+            <label className='label'> {props.titulo} </label>
+        </Button>
+            
     </>) 
 }
 
