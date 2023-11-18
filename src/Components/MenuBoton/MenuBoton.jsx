@@ -8,7 +8,6 @@ const MenuBoton = (props) => {
         <Button className='BtnMenu' color='White'>
             <label className='label'> {props.titulo} </label>
         </Button>
-            
     </>) 
 }
 
