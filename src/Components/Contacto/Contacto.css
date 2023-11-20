@@ -1,0 +1,9 @@
+.ContactoContainer{
+
+    background-color: var(--DarkPurple);
+
+    margin-left: 400px;
+    padding: 0 50px;
+    height: 100vh;
+}
+
