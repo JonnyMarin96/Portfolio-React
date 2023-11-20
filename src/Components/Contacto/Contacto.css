@@ -1,9 +1,26 @@
 .ContactoContainer{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: var(--DarkPurple);
 
     margin-left: 400px;
     padding: 0 50px;
     height: 100vh;
+}
+
+.Etiqueta{
+    color: var(--White);
+    font-family: var(--Montserrat);
+    font-weight: var(--Light);
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.FormContacto{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
 }
 
