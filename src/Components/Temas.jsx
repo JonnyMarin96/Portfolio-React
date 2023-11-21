@@ -10,6 +10,9 @@ const Tema = createTheme({
         },
         Green:{
             main: '#26f07a'
+        },
+        Purple:{
+            main: '#4b36d4'
         }
     }
 })

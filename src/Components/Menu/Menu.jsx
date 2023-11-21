@@ -3,6 +3,7 @@ import "../root.css"
 
 import MenuBoton from "../MenuBoton/MenuBoton"
 import icono from "../../IMG/icono.png"
+import RedesSociales from "../RedesSociales/RedesSociales"
 
 const Menu = () => {
     return <>
@@ -16,6 +17,7 @@ const Menu = () => {
             <MenuBoton titulo="SKILLS" />
             <MenuBoton titulo="EDUCACIÓN" />
             <MenuBoton titulo="CONTACTO" />
+            <RedesSociales/>
         </ul>
     </div>
     
