@@ -1,7 +1,8 @@
 import './Contacto.css'
 import RedesSociales from '../RedesSociales/RedesSociales'
-import { Box, TextField } from '@mui/material'
-import { Block } from '@mui/icons-material'
+
+import * as React from 'react';
+import { Button, TextField } from '@mui/material'
 
 
 const Contacto = () => {
@@ -10,13 +11,19 @@ const Contacto = () => {
             <label className='Etiqueta'>Contactame!</label>
             <RedesSociales/>
             <form className='FormContacto'>
-                <TextField variant="filled" className='Contacto' label='Nombre'/>
-                <TextField variant="filled" className='Contacto' label='Correo'/>
-                <TextField variant="filled" className='Contacto' label='Asunto'/>
-                <TextField variant="filled" className='Contacto' label='Mensaje'/>
+                <TextField variant='filled' margin='normal' className='Contacto' color='Green' label='Nombre'/>
+                <TextField variant='filled' margin='normal' className='Contacto' color='Green' label='Correo'/>
+                <TextField variant='filled' margin='normal' className='Contacto' color='Green' label='Asunto'/>
+                <TextField variant='filled' margin='normal' className='Contacto' color='Green' label='Mensaje'/>
+                <Button variant='contained' size='large' color='Green' onClick={EnviarCorreo}>Enviar</Button>
             </form>
         </section>
     </> 
 }
 
 export default Contacto
+
+
+const EnviarCorreo = (e) => {
+    e.preventDefault();
+}

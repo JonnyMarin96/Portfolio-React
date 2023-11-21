@@ -7,6 +7,9 @@ const Tema = createTheme({
         },
         White:{
             main: '#ffffff'
+        },
+        Green:{
+            main: '#26f07a'
         }
     }
 })
