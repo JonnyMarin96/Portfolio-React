@@ -29,6 +29,11 @@
     margin-bottom: 4rem;
 }
 
+.RedesInicio{
+    margin-top: 0;
+    margin-bottom: 4rem;
+}
+
 .BtnSpanCv{
     font-family: var(--Roboto);
     font-weight: var(--Regular);

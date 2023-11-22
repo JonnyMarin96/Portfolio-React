@@ -11,8 +11,10 @@ const Inicio = () => {
         <section className='ContainerInicio'>
             <h1 className='Nombre'>Jonathan Marin</h1>
             <label className='Titulo'>Desarrollador Front-end Jr</label>
-
-            <RedesSociales/>
+            <div className='RedesInicio'>
+                <RedesSociales/>    
+            </div>
+            
             
             <div>
                 <Button variant="contained">
