@@ -17,7 +17,9 @@ const Menu = () => {
             <MenuBoton titulo="SKILLS" />
             <MenuBoton titulo="EDUCACIÓN" />
             <MenuBoton titulo="CONTACTO" />
-            <RedesSociales/>
+            <div className="Redes">
+                <RedesSociales/>
+            </div>
         </ul>
     </div>
     
