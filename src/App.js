@@ -4,6 +4,7 @@ import './reset.css'
 import Tema from './Components/Temas';
 import Menu from './Components/Menu/Menu';
 import SobreMi from './Components/SobreMi/SobreMi';
+import Proyectos from './Components/Proyectos/Proyectos';
 import Contacto from './Components/Contacto/Contacto';
 
 import Inicio from './Components/Inicio/Inicio';
@@ -14,6 +15,7 @@ function App() {
     <Menu/>
     <Inicio/>
     <SobreMi/>
+    <Proyectos/>
     <Contacto/>
   </ThemeProvider>)
 }
