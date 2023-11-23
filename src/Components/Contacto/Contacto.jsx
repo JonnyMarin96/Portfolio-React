@@ -1,5 +1,5 @@
 import './Contacto.css'
-import RedesSociales from '../RedesSociales/RedesSociales'
+import SendIcon from '@mui/icons-material/Send';
 
 import * as React from 'react';
 import { Button, TextField, TextareaAutosize as TextArea } from '@mui/material'
@@ -18,7 +18,10 @@ const Contacto = () => {
                 <TextField fullWidth variant='filled' margin='normal' className='Contacto' color='Purple' label='Asunto'/>
                 <TextArea fullWidth variant='filled' className='ContactoTxtArea' color='Purple' label='Mensaje' placeholder='Mensaje *' minRows={10}/>
 
-                <Button variant='contained' size='large' color='Green' onClick={EnviarCorreo}>Enviar</Button>
+                <Button variant="contained" size="large" color='Green'  onClick={EnviarCorreo}>
+                    <label className='LblEnviar'>Enviar</label>
+                    <SendIcon/>
+                </Button>
             </form>
         </section>
     </> 

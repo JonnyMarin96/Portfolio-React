@@ -22,6 +22,7 @@
     font-family: var(--Montserrat);
     font-size: 1.5rem;
     color: var(--White);
+    margin-bottom: 1.5rem;
 }
 
 .FormContacto{
@@ -42,5 +43,11 @@
 
     font-size: 1rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.LblEnviar{
+    font-size: 1.1rem;
+    color: var(--DarkPurple);
+    margin: 15px 15px 15px 20px; 
 }
 
