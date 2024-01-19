@@ -1,0 +1,9 @@
+.RedesSocialesContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.BtnSocualMedia{
+    scale: 130%;
+    margin: 0 15px;
+}

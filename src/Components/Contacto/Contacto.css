@@ -1,0 +1,53 @@
+.ContactoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--DarkPurple);
+
+    margin-left: 400px;
+    padding: 0 50px;
+    height: 100vh;
+}
+
+.Etiqueta{
+    color: var(--White);
+    font-family: var(--Montserrat);
+    font-weight: var(--Light);
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.ContactSpan{
+    font-family: var(--Montserrat);
+    font-size: 1.5rem;
+    color: var(--White);
+    margin-bottom: 1.5rem;
+}
+
+.FormContacto{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.Contacto{
+    background-color: var(--White);
+}
+
+.ContactoTxtArea{
+    resize: vertical;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 15px;
+
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.LblEnviar{
+    font-size: 1.1rem;
+    color: var(--DarkPurple);
+    margin: 15px 15px 15px 20px; 
+}
+

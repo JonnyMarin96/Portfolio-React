@@ -1,0 +1,24 @@
+.SobreMiContainer{
+    background-color: var(--DarkPurple);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 50px;
+    height: 100vh;
+}
+
+.FotoPersonal{
+    width: 300px; 
+    margin-bottom: 100px;
+}
+
+.Descripcion{
+    font-size: 1.6rem;
+    color: var(--White);
+    font-family: var(--Roboto);
+    font-weight: var(--Light);
+
+    text-align: center;
+}
