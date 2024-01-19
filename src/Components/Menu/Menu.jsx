@@ -7,7 +7,7 @@ import RedesSociales from "../RedesSociales/RedesSociales"
 
 const Menu = () => {
     return <>
-    <div className="menuContainer">
+    <section className="menuContainer">
 
         <ul className="Menu">
             <MenuBoton titulo="INICIO" />
@@ -17,7 +17,7 @@ const Menu = () => {
             <MenuBoton titulo="EDUCACIÓN" />
             <MenuBoton titulo="CONTACTO" />
         </ul>
-    </div>
+    </section>
     
     </>
 }

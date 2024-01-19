@@ -14,8 +14,6 @@ const Inicio = () => {
             <div className='RedesInicio'>
                 <RedesSociales/>    
             </div>
-            
-            
             <div>
                 <Button variant="contained">
                     <span className='BtnSpanCv'>Descargar CV</span>
