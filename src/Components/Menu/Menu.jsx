@@ -10,12 +10,12 @@ const Menu = () => {
     <section className="menuContainer">
 
         <ul className="Menu">
-            <MenuBoton titulo="INICIO" />
+            <MenuBoton titulo="INICIO" referencia="#Inicio"/>
             <MenuBoton titulo="SOBRE MI" />
             <MenuBoton titulo="PROYECTOS" />
             <MenuBoton titulo="SKILLS" />
             <MenuBoton titulo="EDUCACIÓN" />
-            <MenuBoton titulo="CONTACTO" />
+            <MenuBoton titulo="CONTACTO" referencia="#Contacto"/>
         </ul>
     </section>
     

@@ -18,12 +18,6 @@ const RedesSociales = () => {
                 </a>
             </div>
 
-            <div className='BtnSocualMedia'>
-                <a href="https://www.instagram.com/jonnymarin/?hl=en" target="blank">
-                    <InstagramIcon color='White' fontSize='large'/>
-                </a>
-            </div>
-
         </div>
     )
 }
