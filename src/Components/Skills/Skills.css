@@ -1,5 +1,11 @@
 .SkillsContainer{
+    display: flex;
+    justify-content: space-between;
     background-color: var(--DarkPurple);
-
     height: 100vh;
+    padding: 50px;
+}
+
+.HardSkills{
+    background-color: white;
 }
